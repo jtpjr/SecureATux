@@ -1,0 +1,31 @@
+@echo off
+title User Manger 
+color a
+
+set "user=dir"
+
+:options'
+cls
+echo Account Options
+echo ---------------
+echo.
+echo 1. View account details
+echo. 
+echo 2. Change Password
+echo.
+echo 3. Change Name
+echo.
+echo 4. Enable Account 
+echo.
+echo 5. Disable
+echo.
+echo 6. ADD/Remove Admin PRIV. 
+echo.
+echo 7. Delete
+echo.
+echo 8. EXIT
+echo.
+echo.
+set/p "option= Enter Number!: " 
+if %option%== 1 goto :Details
+REM not finished
