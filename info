@@ -1,0 +1,3 @@
+Run 
+grep Warning /var/log/rkhunter.log
+to check the output of rkhunter
